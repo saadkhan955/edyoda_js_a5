@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #54c3ef;
+  color: #fad744;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 70px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: initial;
+  font-weight: initial;
+}
+
+.question-item {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fad744;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.question-item ul {
+  margin-top: 20px;
+}
+
+.question-item ul li {
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.question-container {
+  margin-right: 20px;
+  background-color: #2b3252;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container,
+.question-container,
+.question-container * {
+  color: #fad744;
+}
+
+.score-card {
+  border-radius: 10px;
+  height: 375px;
+  width: 250px;
+  padding: 10px;
+  color: black;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-card h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.score-card #score {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#submit-btn {
+  color: black;
+  background-color: #fad744;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+}
+
+#submit-btn:hover {
+  background-color: #54c3ef;
+  color: #fff;
+  cursor: pointer;
+}
